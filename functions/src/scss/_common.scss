@@ -1,0 +1,66 @@
+/* Missions
+	- Rewrite default browser style
+*/
+
+
+* {
+	font-family: 'Sarabun', sans-serif;
+	// transition: all .2s;
+	box-sizing: border-box;
+
+	/* Avoid overflow error on safari */
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+
+	*:focus {
+		outline: none;
+	}
+}
+
+html {
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: none;
+	overflow-x: hidden;
+
+	&.modal-open {
+		overflow: hidden;
+
+	}
+}
+
+a {
+	&:hover {
+
+	}
+
+	&:focus {
+
+	}
+}
+
+button {
+	&:hover {
+
+	}
+
+	&:focus {
+
+	}
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,29 @@
+/* Missions
+	- Parts, Reusable
+*/
+
+
+/* Main parts */ 
+
+$HeaderHeight: 200px;
+$FooterHeight: 200px;
+$ContentHeight: calc(100vh - $HeaderHeight - $FooterHeight);
+
+.header {
+	height: $HeaderHeight;
+}
+
+.content {
+	height: $ContentHeight;
+}
+
+.footer {
+	height: $FooterHeight;
+}
+
+/* Layout (pass it if using Bootstrap) */ 
+
+
+
+/*  */
+
