@@ -13,8 +13,8 @@
   "dependencies": {
     "@material/textfield": "^2.3.1",
     "bourbon-neat": "^3.0.1",
-    "firebase-admin": "~6.0.0",
-    "firebase-functions": "^2.1.0",
+    "firebase-admin": "~11.4.1",
+    "firebase-functions": "^4.1.1",
     "material-components-web": "^2.3.1"
   },
   "devDependencies": {
